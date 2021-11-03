@@ -27,9 +27,6 @@ func (b *datos_del_bloque) string_para_hora_de_creacion_del_bloque () string{
 }
 
 func (bloque *datos_del_bloque) pasar_a_bytes_hora_de_creacion_del_bloque (bb string) []byte{
-	fmt.Println(bb)
-	fmt.Println("Pasa por aqui")
 	r:= []byte(bb)
-	fmt.Println(r)
 	return r
 }
